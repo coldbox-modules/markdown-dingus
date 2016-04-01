@@ -1,0 +1,1 @@
+/*** Dingus Handler*/component extends="coldbox.system.EventHandler"{		// DI	property name="processor" inject="processor@cbmarkdown";	/**	* Index	*/	any function index( event, rc, prc ){		event.paramValue( "markup", "" );				if( len( rc.markup ) ){			prc.html = processor.toHTML( rc.markup );		}			event.setView( view="main/index", noLayout=true );	}	}

@@ -1,0 +1,23 @@
+{
+	"name" 		: "Mardown Dingus",
+	"author" 	: "Ortus Solutions <info@ortussolutions.com>",
+	"version"	: "1.0.0",
+	"slug"		: "markdown-dingus",
+	"type"		: "modules",
+	"homepage"			: "https://github.com/ColdBox/markdown-dingus",
+	"documentation"		: "https://github.com/ColdBox/markdown-dingus",
+	"repository"		: { "type" : "git", "url" : "https://github.com/ColdBox/markdown-dingus" },
+	"shortDescription"	: "The ColdFusion (CFML) version of the Markdown Dingus testing application",
+	"bugs"				: "https://github.com/ColdBox/markdown-dingus/issues",
+	"license"			: [ 
+		{ "type" : "Apache2", "url" : "http://www.apache.org/licenses/LICENSE-2.0.html" } 
+	],
+    "dependencies":{
+        "cbmarkdown":"1.0.0"
+    },
+    "ignore":[
+        "**/.*",
+        "tests",
+        "workbench/**"
+    ]
+}
