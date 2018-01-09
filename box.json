@@ -1,7 +1,7 @@
 {
     "name":"Mardown Dingus",
     "author":"Ortus Solutions <info@ortussolutions.com>",
-    "version":"minor",
+    "version":"1.2.0",
     "slug":"markdown-dingus",
     "type":"modules",
     "homepage":"https://github.com/coldbox-modules/markdown-dingus",
@@ -30,5 +30,5 @@
         "postVersion":"package set location='coldbox-modules/markdown-dingus#v`package version`'",
         "postPublish":"!git push --follow-tags"
     },
-    "location":"coldbox-modules/markdown-dingus#vminor"
+    "location":"coldbox-modules/markdown-dingus#v1.2.0"
 }
