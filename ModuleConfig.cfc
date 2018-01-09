@@ -6,7 +6,7 @@ component {
 	// Module Properties
 	this.title 				= "Markdown Dingus";
 	this.author 			= "Ortus Solutions";
-	this.webURL 			= "http://www.ortussolutions.com";
+	this.webURL 			= "https://www.ortussolutions.com";
 	this.description 		= "The ColdFusion (CFML) version of the Markdown Dingus testing application";
 	this.version			= "1.0.0";
 	// If true, looks for views in the parent first, if not found, then in the module. Else vice-versa
